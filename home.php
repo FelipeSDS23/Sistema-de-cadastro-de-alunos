@@ -5,4 +5,5 @@
 
 ?>
 
-<h1>Seja bem vindo <?php print_r($_SESSION["user"] . "!"); ?></h1>
+<h1>Gerenciamento de alunos</h1>
+<h2>Seja bem vindo <?php print_r($_SESSION["user"] . "!"); ?></h2>
