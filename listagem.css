@@ -1,0 +1,48 @@
+.listContainer {
+    background-color: rgb(212, 238, 238);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 1000px;
+}
+
+.listContainer h2 {
+    font-size: 1.5em;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.listContainer a {
+    text-decoration: none;
+}
+
+.studentContainer {
+    background-color: #008cff;
+    color: #fff;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .1s;
+    margin: 10px 0px;
+}
+
+.studentContainer:hover {
+    border: 3px solid #007bee;
+    background-color: #007bee;
+}
+
+.studentContainer .info {
+ background-color: #bbb;
+ padding: 10px;
+ border-radius: 10px;
+ margin: 0px 15px;    
+ width: 100%;
+ text-align: center;
+}
+
+.noStudantMessage {
+    text-align: center;
+}

@@ -1,7 +1,7 @@
 <?php
 
-    include_once("verificarLogin.php");
-    include_once("menu.php");
+    require_once("verificarLogin.php");
+    require_once("menu.php");
     require_once("ConnectDb.php");
 
     if (isset($_POST["submit"]) && !empty($_POST["name"]) && !empty($_POST["phone"]) && !empty($_POST["email"])) {
